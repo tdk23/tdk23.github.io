@@ -226,7 +226,7 @@ body{
 	float: left;
 }
 #icon-time{
-	background: url("../../../tdk23.github.io/tdk23.github.io/image/icon1.png");
+	background: url("../../image/icon1.png");
 	background-size: cover;
 	width: 36px;
 	height: 41px;
@@ -255,7 +255,7 @@ body{
 	color: white;
 }
 #icon-map{
-	background: url("../../../tdk23.github.io/tdk23.github.io/image/icon4.png");
+	background: url("../../image/icon4.png");
 	background-size: cover;
 	width: 41px;
 	height: 39px;
@@ -281,7 +281,7 @@ body{
 	float: left;
 }
 #icon-truck{
-	background: url("../../../tdk23.github.io/tdk23.github.io/image/icon3.png");
+	background: url("../../image/icon3.png");
 	background-size: cover;
 	width: 42px;
 	height: 35px;
@@ -305,7 +305,7 @@ body{
 	margin-left: 39px;
 }
 #icon-car{
-	background: url("../../../tdk23.github.io/tdk23.github.io/image/icon2.png");
+	background: url("../../image/icon2.png");
 	background-size: cover;
 	width: 41px;
 	height: 28px;
@@ -379,14 +379,14 @@ body{
 #ic-1{
 	widows: 40px;
 	height: 80px;
-	background: url("../../../tdk23.github.io/tdk23.github.io/image/cnext.png");
+	background: url("../../image/cnext.png");
 	background-size: cover;
 	margin-bottom: 20px;
 }
 #ic-2{
 	widows: 40px;
 	height: 80px;
-	background: url("../../../tdk23.github.io/tdk23.github.io/image/cprev.png");
+	background: url("../../image/cprev.png");
 	background-size: cover;
 }
 #img-6{
