@@ -1,0 +1,410 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#wrapper{
+	width: 1900px;
+	height: 2990px;
+}
+body{
+	width: 1900px;
+	margin-right: auto;
+	margin-left:  auto;
+	font-family: 'Playfair Display', serif;
+	font-family: 'Roboto', sans-serif;
+
+}
+#header{
+	width: 1900px;
+	height: 125px;
+	position: absolute;
+}
+
+#navbar{
+	float: left;
+}
+.nav div {
+    height: 4px;
+    background-color: black;
+    margin: 3px 0;
+    border-radius: 25px;
+    transition: 0.3s;
+	float: left;
+}
+.nav {
+    width: 30px;
+    display: block;
+    margin: 1em 0 0 1em;
+    
+}
+.one {
+    width: 30px;
+}
+.two {
+    width: 20px;
+}
+.three {
+    width: 25px;
+}
+
+.nav:hover div {
+    width: 30px;
+}
+
+
+
+.btn1 {
+    border: 1px solid #FFC42C;
+    background-color: white;
+    color: black;
+    padding: 19px 80px;
+    font-size: 16px;
+    cursor: pointer;
+	float: right;
+	margin-top: 15px;
+	margin-right: 100px;
+	font-family: 'Roboto', sans-serif;
+	
+	
+}
+	
+.btn1:hover {
+	background-color: #FFC42C;   
+}
+#content1{
+	width: 1900px;
+	height: 875px;
+	background-color: inherit;
+}
+#content1 .content-left{
+	width: 498px;
+	height: 465px;
+/*
+	background: red;
+	opacity: 0.2;
+*/
+	margin-top: 283px;
+	margin-left: 324px;
+	font-size: 70px;
+	float: left;
+}
+#text1{
+	font-family: 'Playfair Display', serif;
+	font-weight: bolder;
+	font-size: 60px;
+	line-height: 58px;
+}
+#text2{
+	margin-top: 30px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 21px;
+	width: 440px;
+	font-weight: 100 px;
+	letter-spacing: 1.5px;
+	line-height: 30px;
+}
+.btn2 {
+    font-family: 'Roboto', sans-serif;
+	border: 1px solid #FFC42C;
+    background-color: white;
+    color: black;
+    padding: 30px 68px;
+    font-size: 14px;
+    cursor: pointer;
+	float: left;
+	margin-top: 30px;
+	
+}
+.btn2:hover {
+	background-color: #FFC42C;
+}
+#content1 .content-right{
+	width: 933px;
+	height: 750px;
+	float: right;
+	background: url("../../../../tdk23.github.io/tdk23.github.io/image/banner-img.jpg");
+	background-size: cover;
+	margin-top:30px;
+	margin-top: 120px;
+}
+#timg{
+	margin-top: 550px;
+	margin-left: 60px;
+	line-height: 30px;
+}
+#text3{
+	font-family: 'Playfair Display', serif;
+	font-size: 30px;
+	font-weight: bolder;
+	color: whitesmoke;	
+}
+#text4{
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	color: whitesmoke;
+	letter-spacing: 2px;
+}
+#content2{
+	width: 1900px;
+	height: 1000px;
+/*	background-color: red;*/
+/*	opacity: 0.2;*/
+	position: absolute;
+	margin-top:20px;
+	
+	
+	
+}
+#conten-right2{
+	width: 761px;
+	height: 1000px;
+/*	background-color: green;*/
+	margin-left: 276px;
+	position: absolute;
+	float: left;
+}
+#img-2{
+	background-image: url("../../../../tdk23.github.io/tdk23.github.io/image/img1.jpg");
+/
+	width: 584px;
+	height: 861px;
+	margin-left: 99px;
+	margin-top:80px;
+	background-size: cover;
+}
+#img-3{
+	background-image: url("../../../../tdk23.github.io/tdk23.github.io/image/img3.jpg");
+	width: 482px; 
+	height: 321px;
+	position: absolute;
+	bottom: 17px;
+	left: -5px;
+}
+#img-4{
+	background-image: url("../../../tdk23.github.io/tdk23.github.io/image/img2.jpg");
+	width: 420px; 
+	height: 519px;
+	position: absolute;
+	top: 100px;
+	right: 0;
+}
+#content-left2{
+	width: 800px;
+	height: 1000px;
+	float: right;
+	margin-top: 80px;
+}
+.popular{
+	font-family: 'Playfair Display', serif;
+	font-size: 70px;
+	font-weight: bolder;
+	line-height: 79px;
+}
+#popular-p{
+	margin-top: 30px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 19px;
+	width: 570px;
+	line-height: 40px;
+}
+
+.first-row{
+	margin-top: 30px;
+	width: 465px;
+	height: 200px;
+	margin-left: 40px;
+}
+.btn3{
+	border: 0.6px solid #CCCCCC;
+	background-color: inherit;
+	font-size: 35px;
+	font-family: 'Playfair Display', serif;
+    color: black;
+	width: 184px;
+	height: 200px;
+    cursor: pointer;
+	float: left;
+}
+#icon-time{
+	background: url("../../../tdk23.github.io/tdk23.github.io/image/icon1.png");
+	background-size: cover;
+	width: 36px;
+	height: 41px;
+	margin-bottom: 20px;
+}
+
+.btn3:hover{
+	background-color: #184CED;
+	color: white;
+	
+}
+.btn4{
+	border: 0.6px solid #CCCCCC;
+	background-color: inherit;
+	font-size: 35px;
+	font-family: 'Playfair Display', serif;
+    color: black;
+	width: 184px;
+	height: 200px;
+    cursor: pointer;
+	float: left;
+	margin-left: 39px;
+}
+.btn4:hover{
+	background-color: #184CED;
+	color: white;
+}
+#icon-map{
+	background: url("../../../tdk23.github.io/tdk23.github.io/image/icon4.png");
+	background-size: cover;
+	width: 41px;
+	height: 39px;
+	margin-bottom: 20px;
+}
+
+
+.second-row{
+	margin-top: 36px;
+	width: 465px;
+	height: 435px;
+	margin-left: 40px;
+}
+.btn5{
+	border: 0.6px solid #CCCCCC;
+	background-color: inherit;
+	font-size: 35px;
+	font-family: 'Playfair Display', serif;
+    color: black;
+	width: 184px;
+	height: 200px;
+    cursor: pointer;
+	float: left;
+}
+#icon-truck{
+	background: url("../../../tdk23.github.io/tdk23.github.io/image/icon3.png");
+	background-size: cover;
+	width: 42px;
+	height: 35px;
+	margin-bottom: 20px;
+}
+.btn5:hover{
+	background-color: #184CED;
+	color: white;
+	
+}
+.btn6{
+	border: 0.6px solid #CCCCCC;
+	background-color: inherit;
+	font-size: 35px;
+	font-family: 'Playfair Display', serif;
+    color: black;
+	width: 184px;
+	height: 200px;
+    cursor: pointer;
+	float: left;
+	margin-left: 39px;
+}
+#icon-car{
+	background: url("../../../tdk23.github.io/tdk23.github.io/image/icon2.png");
+	background-size: cover;
+	width: 41px;
+	height: 28px;
+	margin-bottom: 20px;
+}
+.btn6:hover{
+	background-color: #184CED;
+	color: white;
+}
+.icontext{
+	font-family: 'Roboto', sans-serif;
+	margin-top: 20px;
+	font-size: 14px;
+}
+#content3{
+	width: 1900px;
+/*	background-color: aquamarine;*/
+	height: 900px;
+	margin-top: 1000px;
+	position: absolute;
+}
+#content-left3{
+/*	background: blue;*/
+	width: 373px;
+	height: 603px;
+	margin-left: 324px;
+	margin-top:180px;
+	float: left;
+}
+#best-tour{
+	font-family: 'Playfair Display', serif;
+	font-weight: bolder;
+	font-size: 60px;
+	line-height: 58px;
+}
+.lorem{
+	margin-top: 25px;
+	font-family: 'Roboto', sans-serif;
+}
+#btn6 {
+    font-family: 'Roboto', sans-serif;
+	border: 1px solid #FFC42C;
+    background-color: white;
+    color: black;
+    padding: 20px 40px;
+    font-size: 15px;
+    cursor: pointer;
+	margin-top: 25px;
+	
+}
+#btn6:hover {
+	background-color: #FFC42C;
+}
+#content-right3{
+	float: right;
+	margin-top:180px;
+/*
+	background:blue;
+	opacity: 0.2;
+*/
+	width: 992px;
+	height: 583px;
+}
+#icon{
+	width: 40px;
+	height: 180px;
+/*	background: red;*/
+	float: left;
+	margin-top: 403px;
+}
+#ic-1{
+	widows: 40px;
+	height: 80px;
+	background: url("../../../tdk23.github.io/tdk23.github.io/image/cnext.png");
+	background-size: cover;
+	margin-bottom: 20px;
+}
+#ic-2{
+	widows: 40px;
+	height: 80px;
+	background: url("../../../tdk23.github.io/tdk23.github.io/image/cprev.png");
+	background-size: cover;
+}
+#img-6{
+	width: 438px;
+	height: 583px;
+/*	background: red;*/
+	float: right;
+	margin-right: 20px;
+	background-image: url("../../../tdk23.github.io/tdk23.github.io/image/pac1.jpg");
+}
+#img-7{
+	width: 438px;
+	height: 583px;
+/*	background: red;*/
+	float: right;
+	margin-right: 20px;
+	background-image: url("../../../tdk23.github.io/tdk23.github.io/image/pac2.jpg");
+	background-size: cover;
+}
+
