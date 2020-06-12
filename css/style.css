@@ -395,7 +395,7 @@ body{
 /*	background: red;*/
 	float: right;
 	margin-right: 20px;
-	background-image: url("../../../tdk23.github.io/tdk23.github.io/image/pac1.jpg");
+	background-image: url("../../image/pac1.jpg");
 }
 #img-7{
 	width: 438px;
@@ -403,7 +403,7 @@ body{
 /*	background: red;*/
 	float: right;
 	margin-right: 20px;
-	background-image: url("../../../tdk23.github.io/tdk23.github.io/image/pac2.jpg");
+	background-image: url("../../image/pac2.jpg");
 	background-size: cover;
 }
 
